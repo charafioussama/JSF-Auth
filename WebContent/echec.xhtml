@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title>Warning</title>
+	<style>
+body {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.echec {
+	font-size: 25px;
+	padding: 5px;
+	width: 50%;
+	border-radius: 4px;
+	margin: 0px auto; .
+	margin-top: 15px;
+	border: 1px solid black;
+	color: black;
+}
+
+.footer, .p:after {
+	font-size: 25px;
+	padding: 5px;
+	width: 25%;
+	margin: 10px auto;
+	border-radius: 4px;
+	border: 1px solid blue;
+}
+
+div:hover {
+	background: red;
+	border-color: black;
+}
+</style>
+</h:head>
+<h:body>
+	<p class="echec">
+		Nom d'utilisateur ou mot de passe incorrect<br />
+	</p>
+	<div class="footer">
+		<a href="login.xhtml">Cliquez ici pour réessayer.</a>
+	</div>
+</h:body>
+</html>

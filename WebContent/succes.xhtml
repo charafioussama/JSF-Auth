@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<title>Home</title>
+	<style>
+.succes {
+	text-align: center;
+	padding: 15px;
+	width: 400px;
+	border-radius: 4px;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: -65px;
+	border: 1px solid black;
+	color: black;
+}
+
+.succes:hover {
+	background-color: brown;
+	color: white;
+}
+</style>
+</h:head>
+<h:body>
+	<p class="succes">Bienvenue, #{userLogin.nomutilisateur}</p>
+</h:body>
+</html>
